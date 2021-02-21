@@ -1,16 +1,26 @@
 {
-  "name": "note-taker",
+  "name": "notebooker",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Heroku-deployed application that allows users to create, edit & delete a compilation of notes.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "MissNG",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
     "mysql": "^2.18.1",
     "path": "^0.12.7"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MissNG-Git/Notebooker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MissNG-Git/Notebooker/issues"
+  },
+  "homepage": "https://github.com/MissNG-Git/Notebooker#readme"
 }
