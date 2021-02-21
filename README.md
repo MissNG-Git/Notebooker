@@ -1,6 +1,6 @@
 # 11 Express.js: Note Taker
 
-⋘ ──── ∗⋅◦∘◈\[[MissNG Notebooker](https://lit-basin-#####.herokuapp.com/)\]◈∘◦⋅∗ ──── ⋙
+⋘ ──── ∗⋅◦∘◈\[[MissNG Notebooker](https://notebooker-00.herokuapp.com//)\]◈∘◦⋅∗ ──── ⋙
 
 I have taken a starter code and created an application that would allow users to write & save notes. The application uses an Express.js back end and will retrieve note data from a JSON file.
 
@@ -47,7 +47,7 @@ The following images show the web application's appearance and functionality:
 
 ### ≫ ──── ≪•◦ Usability ◦•≫ ──── ≪
 
-* Navigate to deployed application page on [Heroku](https://lit-basin-#####.herokuapp.com/).
+* Navigate to deployed application page on [Heroku](https://notebooker-00.herokuapp.com/).
 **+** _Alternatively, the application has also been deployed to GitHub [here](https://missng-git.github.io/Notebooker)_
 
 * Click on "Get Started" button on landing page to be directed to Notebooker application (aka the notes page)
