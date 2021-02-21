@@ -7,11 +7,13 @@ I have taken a starter code and created an application that would allow users to
 As the application's front end was already built, my task included construction of the back end, connecting the two and deploying to Heroku.
 
 Technologies utilised include...
++ [Bootstrap CSS](https://getbootstrap.com/)
 + Javascript
 + [GitBash](https://gitforwindows.org/)
-+ [Node](https://nodejs.org/en/about/)
++ [Node Environment](https://nodejs.org/en/about/)
 + [Express.js Framework](https://expressjs.com/)
-+ [MySql Database](https://www.mysql.com/)
++ [MySQL Database](https://www.mysql.com/)
++ [Heroku Platform](https://www.heroku.com/)
 
 ## ≫ ──── ≪•◦ Objectives ◦•≫ ──── ≪
 ```
@@ -47,8 +49,8 @@ The following images show the web application's appearance and functionality:
 
 ### ≫ ──── ≪•◦ Usability ◦•≫ ──── ≪
 
-* Navigate to deployed application page on [Heroku](https://notebooker-00.herokuapp.com/).
-**+** _Alternatively, the application has also been deployed to GitHub [here](https://missng-git.github.io/Notebooker)_
+* Navigate to deployed application page on [Heroku](https://notebooker-00.herokuapp.com/).  
+** _Alternatively, the application has also been deployed to GitHub [here](https://missng-git.github.io/Notebooker)_
 
 * Click on "Get Started" button on landing page to be directed to Notebooker application (aka the notes page)
 
