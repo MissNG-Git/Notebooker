@@ -20,7 +20,7 @@ app.get('/notes', (req, res) => res.sendFile(path.join(mainDir , 'notes.html')))
 app.get('/api/notes', (req, res) => res.sendFile(__dirname, '/db/db.json'));
 
 // Displays notes as JSON object 
-const savedNotes = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
+let savedNotes = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
 app.get('/api/notes/', function(req, res) {
     res.json(savedNotes);
 });
