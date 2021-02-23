@@ -20,14 +20,13 @@ app.get('/notes', (req, res) => res.sendFile(path.join(mainDir , 'notes.html')))
 app.get('/api/notes', (req, res) => res.sendFile(__dirname, '/db/db.json'));
 
 // Displays notes as JSON object 
+const savedNotes = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
 app.get('/api/notes/', function(req, res) {
-    let savedNotes = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
     res.json(savedNotes);
 });
 
 // Read/Write Files w/fs
 app.post('/api/notes', (req, res) => {
-    let savedNotes = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
     let newNote = req.body;
     let uniqueID = savedNotes.length;
     newNote.id = uniqueID;
@@ -46,7 +45,6 @@ app.post('/api/notes', (req, res) => {
 
 // BONUS: Delete Capabilities
 app.delete("/api/notes/:id", function(req, res) {
-    let savedNotes = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
     let noteID = req.params.id;
     let newID = 0;
 
